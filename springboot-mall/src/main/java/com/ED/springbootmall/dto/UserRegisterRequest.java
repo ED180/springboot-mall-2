@@ -8,6 +8,7 @@ import java.util.Date;
 
 public class UserRegisterRequest {
     @NotBlank
+    @Email
     private String email;
     @NotBlank
     private String password;
